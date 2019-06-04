@@ -1,0 +1,4 @@
+set term svg background 'white'
+plot [][-2.1:4.1] \
+  'pre_data.dat' using 1:2 w l title 'Data'\
+	,'interpolated_data.dat' using 1:2  title 'interpolated points'

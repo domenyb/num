@@ -1,0 +1,4 @@
+set term svg background 'white'
+set xlabel '1/sqrt(N)'
+set ylabel 'error'
+plot  'data.dat' u 1:2 w l t "MC method's accuracy as function of N"

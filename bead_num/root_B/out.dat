@@ -1,0 +1,48 @@
+start with the first equation system 
+ we will start from (0,1) point
+  here is the starting vector: 0 	 1 
+ 
+It took 20 steps and 62 functioncalls 
+solution vector (should be - with epsilon=0.00001- around 9.1061,0.00011 - order shouldn't matter) :
+ 1.09816e-05 	 9.10615 
+ 
+Starting the second function: We use the points above as a starting point, and should find (1,1) as solution
+It took 3419 steps and 27340 functioncalls 
+Solution is: 1 1  
+ 
+Starting the third function, starting point is once again the output of the previous search, and now solution should be: 
+ either x=-0.270845 y=− 0.923039 (case: local maximum) 
+ or one of the following:  
+ 3.0 2.0 
+ -2.805118 3.131312  
+ -3.779310  -3.283186 
+ 3.584428  -1.848126 
+It took 9 steps and 24 functioncalls 
+solution is: -3.77931 -3.28319
+
+ 
+ A part finished, here comes part B
+ ----------------------------------------------------------- 
+ start with the first equation system 
+ we will start from (0,1) point
+  here is the starting vector: 0 	 1 
+ 
+It took 21 steps and 84 functioncalls 
+solution vector (should be - with epsilon=0.00001- around 9.1061,0.00011 - order shouldn't matter) :
+ 1.09816e-05 	 9.10615 
+ 
+Starting the second function: We use the points above as a starting point, and should find (1,1) as solution
+It took 9 steps and 36 functioncalls 
+Solution is: 1 1  
+ 
+Starting the third function, starting point is once again the output of the previous search, and now solution should be: 
+ either x=-0.270845 y=− 0.923039 (case: local maximum) 
+ or one of the following:  
+ 3.0 2.0 
+ -2.805118 3.131312  
+ -3.779310  -3.283186 
+ 3.584428  -1.848126 
+It took 8 steps and 32 functioncalls 
+solution is: -3.77931 -3.28319
+
+ We see something interesting in the functioncalls, on the 2nd case, method B seems more efficient (probably the reason is the new stop condition) for other cases, we have more functioncalls in a similar amount of steps

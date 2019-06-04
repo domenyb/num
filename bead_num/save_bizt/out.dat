@@ -1,0 +1,31 @@
+start with the first function -Rosenbrock's valley function- at the (0,0) point, since this is what my basic vector allocation creates
+  here is the starting vector: 0 	 0 
+ 
+solution reached in 5207 steps
+Solution is (should be (a, a^2, which in our case a=1 -> (1,1))): 
+  1 0.999999  
+ 
+Starting the second function -Himmelblau's function-, starting point is the output of the previous search, and now solution should be: 
+ either x=-0.270845 y=− 0.923039 (case: local maximum) 
+ or one of the following:  
+ 3.0 2.0 
+ -2.805118 3.131312  
+ -3.779310  -3.283186 
+ 3.584428  -1.848126 
+solution reached in 1059 steps
+solution is: -0.270845 -0.923039
+ Now we found the maximum - since the gradient is zero here too 
+ let's start from starting points which are near the minima - since newton steps are supposed to solve these type of problems
+starting point: (2,2)
+solution reached in 6 steps
+solution is: 3 2
+For another minimum, starting point: (-2,2)
+solution reached in 5 steps
+solution is: -2.80512 3.13131
+ 
+ 
+ I can conclude that we've succesfully found multiple extrema. 
+ 
+ Part A is finished, here comes part B
+ ----------------------------------------------------------- 
+ 

@@ -1,0 +1,5 @@
+set term svg background 'white'
+plot [0:10][0:10]  \
+	 'plot.dat' using 1:2 with lines title 'integr'\
+	,'plot.dat' using 1:3 with lines title 'H'\
+,'plot.dat' using 1:4 with lines title 'Energy'\

@@ -1,0 +1,4 @@
+set ter svg background 'white'; \
+plot 'plot2.dat' using (1/$2)*sin($1):(1/$2)*cos($1) with lines title 'circle', \
+ 'plot2.dat' using (1/$3)*sin($1):(1/$3)*cos($1) with lines title 'elliptic', \
+'plot2.dat' using (1/$4)*sin($1):(1/$4)*cos($1) with lines title 'relativistic' \

@@ -1,0 +1,287 @@
+main.c: In function 'qspline_alloc':
+main.c:39:9: error: stray '\342' in program
+     D[i]���=Q[i−1]/D[i−1];
+         ^
+main.c:39:10: error: stray '\210' in program
+     D[i]���=Q[i−1]/D[i−1];
+          ^
+main.c:39:11: error: stray '\222' in program
+     D[i]��=Q[i−1]/D[i−1];
+           ^
+main.c:39:16: error: stray '\342' in program
+     D[i]−=Q[i���1]/D[i−1];
+                ^
+main.c:39:17: error: stray '\210' in program
+     D[i]−=Q[i���1]/D[i−1];
+                 ^
+main.c:39:18: error: stray '\222' in program
+     D[i]−=Q[i��1]/D[i−1];
+                  ^
+main.c:39:19: error: expected ']' before numeric constant
+     D[i]−=Q[i−1]/D[i−1];
+                   ^
+main.c:39:25: error: stray '\342' in program
+     D[i]−=Q[i−1]/D[i���1];
+                         ^
+main.c:39:26: error: stray '\210' in program
+     D[i]−=Q[i−1]/D[i���1];
+                          ^
+main.c:39:27: error: stray '\222' in program
+     D[i]−=Q[i−1]/D[i��1];
+                           ^
+main.c:39:28: error: expected ']' before numeric constant
+     D[i]−=Q[i−1]/D[i−1];
+                            ^
+main.c:40:9: error: stray '\342' in program
+     B[i]���=B[i−1]/D[i−1];
+         ^
+main.c:40:10: error: stray '\210' in program
+     B[i]���=B[i−1]/D[i−1];
+          ^
+main.c:40:11: error: stray '\222' in program
+     B[i]��=B[i−1]/D[i−1];
+           ^
+main.c:40:16: error: stray '\342' in program
+     B[i]−=B[i���1]/D[i−1];
+                ^
+main.c:40:17: error: stray '\210' in program
+     B[i]−=B[i���1]/D[i−1];
+                 ^
+main.c:40:18: error: stray '\222' in program
+     B[i]−=B[i��1]/D[i−1];
+                  ^
+main.c:40:19: error: expected ']' before numeric constant
+     B[i]−=B[i−1]/D[i−1];
+                   ^
+main.c:40:25: error: stray '\342' in program
+     B[i]−=B[i−1]/D[i���1];
+                         ^
+main.c:40:26: error: stray '\210' in program
+     B[i]−=B[i−1]/D[i���1];
+                          ^
+main.c:40:27: error: stray '\222' in program
+     B[i]−=B[i−1]/D[i��1];
+                           ^
+main.c:40:28: error: expected ']' before numeric constant
+     B[i]−=B[i−1]/D[i−1];
+                            ^
+main.c:43:9: error: stray '\342' in program
+   object���>b[n−1]=B[n−1]/D[n−1];
+         ^
+main.c:43:10: error: stray '\210' in program
+   object���>b[n−1]=B[n−1]/D[n−1];
+          ^
+main.c:43:11: error: stray '\222' in program
+   object��>b[n−1]=B[n−1]/D[n−1];
+           ^
+main.c:43:13: error: 'b' undeclared (first use in this function)
+   object−>b[n−1]=B[n−1]/D[n−1];
+             ^
+main.c:43:13: note: each undeclared identifier is reported only once for each function it appears in
+main.c:43:16: error: stray '\342' in program
+   object−>b[n���1]=B[n−1]/D[n−1];
+                ^
+main.c:43:17: error: stray '\210' in program
+   object−>b[n���1]=B[n−1]/D[n−1];
+                 ^
+main.c:43:18: error: stray '\222' in program
+   object−>b[n��1]=B[n−1]/D[n−1];
+                  ^
+main.c:43:19: error: expected ']' before numeric constant
+   object−>b[n−1]=B[n−1]/D[n−1];
+                   ^
+main.c:43:25: error: stray '\342' in program
+   object−>b[n−1]=B[n���1]/D[n−1];
+                         ^
+main.c:43:26: error: stray '\210' in program
+   object−>b[n−1]=B[n���1]/D[n−1];
+                          ^
+main.c:43:27: error: stray '\222' in program
+   object−>b[n−1]=B[n��1]/D[n−1];
+                           ^
+main.c:43:28: error: expected ']' before numeric constant
+   object−>b[n−1]=B[n−1]/D[n−1];
+                            ^
+main.c:43:34: error: stray '\342' in program
+   object−>b[n−1]=B[n−1]/D[n���1];
+                                  ^
+main.c:43:35: error: stray '\210' in program
+   object−>b[n−1]=B[n−1]/D[n���1];
+                                   ^
+main.c:43:36: error: stray '\222' in program
+   object−>b[n−1]=B[n−1]/D[n��1];
+                                    ^
+main.c:43:37: error: expected ']' before numeric constant
+   object−>b[n−1]=B[n−1]/D[n−1];
+                                     ^
+main.c:44:15: error: stray '\342' in program
+   for (int i=n���2;i>=0;i−−) {
+               ^
+main.c:44:16: error: stray '\210' in program
+   for (int i=n���2;i>=0;i−−) {
+                ^
+main.c:44:17: error: stray '\222' in program
+   for (int i=n��2;i>=0;i−−) {
+                 ^
+main.c:44:18: error: expected ',' or ';' before numeric constant
+   for (int i=n−2;i>=0;i−−) {
+                  ^
+main.c:44:26: error: stray '\342' in program
+   for (int i=n−2;i>=0;i���−) {
+                          ^
+main.c:44:27: error: stray '\210' in program
+   for (int i=n−2;i>=0;i���−) {
+                           ^
+main.c:44:28: error: stray '\222' in program
+   for (int i=n−2;i>=0;i��−) {
+                            ^
+main.c:44:29: error: stray '\342' in program
+   for (int i=n−2;i>=0;i−���) {
+                             ^
+main.c:44:30: error: stray '\210' in program
+   for (int i=n−2;i>=0;i−���) {
+                              ^
+main.c:44:31: error: stray '\222' in program
+   for (int i=n−2;i>=0;i−��) {
+                               ^
+main.c:44:3: warning: statement with no effect [-Wunused-value]
+   for (int i=n−2;i>=0;i−−) {
+   ^~~
+main.c:45:11: error: stray '\342' in program
+     object���>b[i]=(B[i]−Q[i]*object−>b[i+1])/D[i];
+           ^
+main.c:45:12: error: stray '\210' in program
+     object���>b[i]=(B[i]−Q[i]*object−>b[i+1])/D[i];
+            ^
+main.c:45:13: error: stray '\222' in program
+     object��>b[i]=(B[i]−Q[i]*object−>b[i+1])/D[i];
+             ^
+main.c:45:25: error: stray '\342' in program
+     object−>b[i]=(B[i]���Q[i]*object−>b[i+1])/D[i];
+                         ^
+main.c:45:26: error: stray '\210' in program
+     object−>b[i]=(B[i]���Q[i]*object−>b[i+1])/D[i];
+                          ^
+main.c:45:27: error: stray '\222' in program
+     object−>b[i]=(B[i]��Q[i]*object−>b[i+1])/D[i];
+                           ^
+main.c:45:28: error: expected ')' before 'Q'
+     object−>b[i]=(B[i]−Q[i]*object−>b[i+1])/D[i];
+                            ^
+main.c:45:39: error: stray '\342' in program
+     object−>b[i]=(B[i]−Q[i]*object���>b[i+1])/D[i];
+                                       ^
+main.c:45:40: error: stray '\210' in program
+     object−>b[i]=(B[i]−Q[i]*object���>b[i+1])/D[i];
+                                        ^
+main.c:45:41: error: stray '\222' in program
+     object−>b[i]=(B[i]−Q[i]*object��>b[i+1])/D[i];
+                                         ^
+main.c:47:19: error: stray '\342' in program
+   for (int i=0;i<n���1;i++){
+                   ^
+main.c:47:20: error: stray '\210' in program
+   for (int i=0;i<n���1;i++){
+                    ^
+main.c:47:21: error: stray '\222' in program
+   for (int i=0;i<n��1;i++){
+                     ^
+main.c:47:22: error: expected ';' before numeric constant
+   for (int i=0;i<n−1;i++){
+                      ^
+main.c:48:9: error: stray '\342' in program
+   object���>c[i]=(−2*object−>b[i]−object−>b[i+1]+3*mered[i])/period[i];
+         ^
+main.c:48:10: error: stray '\210' in program
+   object���>c[i]=(−2*object−>b[i]−object−>b[i+1]+3*mered[i])/period[i];
+          ^
+main.c:48:11: error: stray '\222' in program
+   object��>c[i]=(−2*object−>b[i]−object−>b[i+1]+3*mered[i])/period[i];
+           ^
+main.c:48:13: error: 'c' undeclared (first use in this function)
+   object−>c[i]=(−2*object−>b[i]−object−>b[i+1]+3*mered[i])/period[i];
+             ^
+main.c:48:19: error: stray '\342' in program
+   object−>c[i]=(���2*object−>b[i]−object−>b[i+1]+3*mered[i])/period[i];
+                   ^
+main.c:48:20: error: stray '\210' in program
+   object−>c[i]=(���2*object−>b[i]−object−>b[i+1]+3*mered[i])/period[i];
+                    ^
+main.c:48:21: error: stray '\222' in program
+   object−>c[i]=(��2*object−>b[i]−object−>b[i+1]+3*mered[i])/period[i];
+                     ^
+main.c:48:30: error: stray '\342' in program
+   object−>c[i]=(−2*object���>b[i]−object−>b[i+1]+3*mered[i])/period[i];
+                              ^
+main.c:48:31: error: stray '\210' in program
+   object−>c[i]=(−2*object���>b[i]−object−>b[i+1]+3*mered[i])/period[i];
+                               ^
+main.c:48:32: error: stray '\222' in program
+   object−>c[i]=(−2*object��>b[i]−object−>b[i+1]+3*mered[i])/period[i];
+                                ^
+main.c:48:23: error: invalid operands to binary * (have 'int' and 'qspline * {aka struct <anonymous> *}')
+   object−>c[i]=(−2*object−>b[i]−object−>b[i+1]+3*mered[i])/period[i];
+                       ^
+main.c:48:38: error: stray '\342' in program
+   object−>c[i]=(−2*object−>b[i]���object−>b[i+1]+3*mered[i])/period[i];
+                                      ^
+main.c:48:39: error: stray '\210' in program
+   object−>c[i]=(−2*object−>b[i]���object−>b[i+1]+3*mered[i])/period[i];
+                                       ^
+main.c:48:40: error: stray '\222' in program
+   object−>c[i]=(−2*object−>b[i]��object−>b[i+1]+3*mered[i])/period[i];
+                                        ^
+main.c:48:41: error: expected ')' before 'object'
+   object−>c[i]=(−2*object−>b[i]−object−>b[i+1]+3*mered[i])/period[i];
+                                         ^~~~~~
+main.c:48:47: error: stray '\342' in program
+   object−>c[i]=(−2*object−>b[i]−object���>b[i+1]+3*mered[i])/period[i];
+                                               ^
+main.c:48:48: error: stray '\210' in program
+   object−>c[i]=(−2*object−>b[i]−object���>b[i+1]+3*mered[i])/period[i];
+                                                ^
+main.c:48:49: error: stray '\222' in program
+   object−>c[i]=(−2*object−>b[i]−object��>b[i+1]+3*mered[i])/period[i];
+                                                 ^
+main.c:49:9: error: stray '\342' in program
+   object���>d[i]=(object−>b[i]+object−>b[i+1]−2*mered[i])/period[i]/period[i];
+         ^
+main.c:49:10: error: stray '\210' in program
+   object���>d[i]=(object−>b[i]+object−>b[i+1]−2*mered[i])/period[i]/period[i];
+          ^
+main.c:49:11: error: stray '\222' in program
+   object��>d[i]=(object−>b[i]+object−>b[i+1]−2*mered[i])/period[i]/period[i];
+           ^
+main.c:49:13: error: 'd' undeclared (first use in this function)
+   object−>d[i]=(object−>b[i]+object−>b[i+1]−2*mered[i])/period[i]/period[i];
+             ^
+main.c:49:25: error: stray '\342' in program
+   object−>d[i]=(object���>b[i]+object−>b[i+1]−2*mered[i])/period[i]/period[i];
+                         ^
+main.c:49:26: error: stray '\210' in program
+   object−>d[i]=(object���>b[i]+object−>b[i+1]−2*mered[i])/period[i]/period[i];
+                          ^
+main.c:49:27: error: stray '\222' in program
+   object−>d[i]=(object��>b[i]+object−>b[i+1]−2*mered[i])/period[i]/period[i];
+                           ^
+main.c:49:40: error: stray '\342' in program
+   object−>d[i]=(object−>b[i]+object���>b[i+1]−2*mered[i])/period[i]/period[i];
+                                        ^
+main.c:49:41: error: stray '\210' in program
+   object−>d[i]=(object−>b[i]+object���>b[i+1]−2*mered[i])/period[i]/period[i];
+                                         ^
+main.c:49:42: error: stray '\222' in program
+   object−>d[i]=(object−>b[i]+object��>b[i+1]−2*mered[i])/period[i]/period[i];
+                                          ^
+main.c:49:50: error: stray '\342' in program
+   object−>d[i]=(object−>b[i]+object−>b[i+1]���2*mered[i])/period[i]/period[i];
+                                                  ^
+main.c:49:51: error: stray '\210' in program
+   object−>d[i]=(object−>b[i]+object−>b[i+1]���2*mered[i])/period[i]/period[i];
+                                                   ^
+main.c:49:52: error: stray '\222' in program
+   object−>d[i]=(object−>b[i]+object−>b[i+1]��2*mered[i])/period[i]/period[i];
+                                                    ^
+main.c:49:53: error: expected ')' before numeric constant
+   object−>d[i]=(object−>b[i]+object−>b[i+1]−2*mered[i])/period[i]/period[i];
+                                                  

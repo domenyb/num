@@ -1,0 +1,26 @@
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value is: 0.666681 +/- 3.32605e-05 
+now try it with the CC transformation:
+The integral's value now is: 0.666667 +/- 4.49565e-06 
+with GSL routines: 
+The integral's value now is: 0.666667 +/- 7.734e-05 
+Second integral from 0-1 1/sqrt(x) is supposed to be = 2
+The integral's value is: 2 +/- 1.19752e-05 
+now try it with the CC transformation:
+The integral's value now is: 2 +/- 1.03007e-05 
+with GSL routines: 
+The integral's value now is: 2 +/- 5.77316e-15 
+third integral from 0-1 ln(x)/sqrt(x) supposed to be = -4
+The integral's value is: -4 +/- 3.27216e-05 
+now try it with the CC transformation:
+The integral's value now is: -4 +/- 3.8707e-06 
+with GSL routines: 
+The integral's value now is: -4 +/- 1.35447e-13 
+our last integral from 0-1  4sqrt(1-(1-x)2) supposed to be = pi (3.141592653589793238462...)
+The integral's value is: 3.1416 +/- 5.46033e-05 
+now try it with the CC transformation:
+The integral's value now is: 3.14159 +/- 1.03793e-05 
+with GSL routines: 
+The integral's value now is: 3.14159 +/- 0.00015548 
+this is succesfull so far... Maybe i'll return to implement excersise C, since this doesn't seem to be as time consuming
+ ----------------------------------------------------------------------

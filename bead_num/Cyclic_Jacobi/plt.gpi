@@ -1,0 +1,7 @@
+set term svg background 'white'
+set xlabel "Matrix size"
+set ylabel "Time"
+f(x)=a*x*x*x+b*x*x+c*x+d
+fit f(x) 'times_output.dat' u 1:2 via a,b,c,d
+plot  'times_output.dat' using 1:2 w l title 'Time vs. size'\
+      , f(x) w l title "x^3 fit "

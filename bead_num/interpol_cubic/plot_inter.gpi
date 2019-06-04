@@ -1,0 +1,4 @@
+set term svg background 'white'
+plot [][-10:70] \
+	'pre_data.dat' using 1:3 title 'Data integrated values'\
+	,'interpolated_data.dat' using 1:3 title 'interpolated integrated values'\

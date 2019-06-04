@@ -1,0 +1,9 @@
+set term svg background 'white'
+set xlabel "Matrix size"
+set ylabel "Time"
+f(x)=a*x*x*x+b*x*x+c*x+d
+fit f(x) 'times_output.dat' u 1:2 via a,b,c,d
+plot  'times_output.dat' using 1:2 w l title 'Time vs. size 1 by 1'\
+      , f(x) w l title "x^3 fit "\
+      , '../Cyclic_Jacobi/times_output.dat' u 1:2 w l title 'Time vs. size cyclic'\
+      ,'times_output_large.dat' u 1:2 w l title 'Time vs. size 1 by 1 from largest'

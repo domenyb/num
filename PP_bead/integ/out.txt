@@ -1,0 +1,2 @@
+first result = -4
+The minimum we found is the ground state

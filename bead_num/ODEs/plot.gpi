@@ -1,0 +1,2 @@
+set term svg background 'white'
+plot  'data.dat' u 2:3 w l t 'Excersise As solution'

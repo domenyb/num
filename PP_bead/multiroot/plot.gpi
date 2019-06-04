@@ -1,0 +1,3 @@
+set term svg background 'white'
+plot  'plot.dat' using 1:2 with lines title 'solution'\
+	,'plot.dat' using 1:3 with lines title 'analytical sol.'\

@@ -1,0 +1,14 @@
+testing komplex_add...
+a= (1,2)
+b= (3,4)
+a+b should   =  (4,6)
+a+b actually =  (4,6)
+testing komplex_sub...
+a= (1,2)
+b= (3,4)
+a-b should   =  (-2,-2)
+a-b actually =  (-2,-2)
+testing komplex_set...
+now g= (7,8)
+greal= 5gim= 6g should   =  (5,6)
+g actually =  (5,6)

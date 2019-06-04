@@ -1,0 +1,6 @@
+set term svg background 'white'
+set xlabel "X"
+set ylabel "Y"
+plot 'out1.dat' u 1:2:3 w yerrorbars title "test data", 'out2.dat' u 1:2 \
+w l title "F(x) fit", 'out3.dat' u 1:2 w l title "F(x)+dF(x)" , 'out4.dat' \
+ u 1:2 w l title "F(x)-dF(x)"

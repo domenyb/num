@@ -1,0 +1,3 @@
+set term png
+plot  "out.dat" using 1:2 with lines title "calculated values" \
+,"out.dat" using 1:3 with points title "values" \

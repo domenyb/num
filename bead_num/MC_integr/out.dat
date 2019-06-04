@@ -1,0 +1,60 @@
+A, we'd have to test this on some 'interesting integrals', well, might as well use the ones from the previous excersise
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 10^6 points) is: 0.666693 +/- 0.000235641 
+Second integral from 0-1 1/sqrt(x) is supposed to be = 2
+The integral's value (after using 10^6 points) is: 1.99992 +/- 0.00339782 
+third integral from 0-1 ln(x)/sqrt(x) supposed to be = -4
+The integral's value (after using 10^6 points) is: -3.94184 +/- 0.036093 
+Last integral, designed for this calc: ∫0π  dx/π ∫0π  dy/π ∫0π  dz/π [1-cos(x)cos(y)cos(z)]-1 = Γ(1/4)4/(4π3) ≈ 1.3932039296856768591842462603255
+The integral's value (after using 10^7 points this time) is: 1.39124 +/- 0.00193718 
+this is successful so far... Let's show that the Monte-Carlo method behaves as O(1/√N). 
+ ----------------------------------------------------------------------
+Let's go back to the first integral
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 1000 points) is: 0.667086 +/- 0.00732276 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 1780 points) is: 0.669227 +/- 0.00562909 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 3168 points) is: 0.670297 +/- 0.004216 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 5639 points) is: 0.669532 +/- 0.00314219 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 10037 points) is: 0.669302 +/- 0.00235575 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 17865 points) is: 0.666042 +/- 0.00175263 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 31799 points) is: 0.669079 +/- 0.0013128 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 56602 points) is: 0.668032 +/- 0.000989071 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 100751 points) is: 0.666413 +/- 0.000744638 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 179336 points) is: 0.666233 +/- 0.00055748 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 319218 points) is: 0.666865 +/- 0.000416828 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 568208 points) is: 0.667345 +/- 0.000312691 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 1011410 points) is: 0.666667 +/- 0.000234289 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 1800309 points) is: 0.666676 +/- 0.00017572 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 3204550 points) is: 0.666849 +/- 0.000131613 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 5704099 points) is: 0.66673 +/- 9.8702e-05 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 10153296 points) is: 0.666778 +/- 7.39489e-05 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 18072866 points) is: 0.666751 +/- 5.54466e-05 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 32169701 points) is: 0.666639 +/- 4.15536e-05 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 57262067 points) is: 0.666705 +/- 3.11429e-05 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 101926479 points) is: 0.666704 +/- 2.33454e-05 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 181429132 points) is: 0.666683 +/- 1.74992e-05 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 322943854 points) is: 0.666661 +/- 1.31162e-05 
+First integral from 0-1 sqrt(x) supposed to be = 2/3
+The integral's value (after using 574840060 points) is: 0.666649 +/- 9.8308e-06 

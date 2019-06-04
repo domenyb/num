@@ -1,0 +1,3 @@
+set term svg background rgb 'white'
+set output "plot.svg"
+plot "io.out.txt", "out.cmd.dat"
