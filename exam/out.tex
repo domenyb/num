@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+\title{Generalized eigenvalue problem}
+\author{Balazs Doemeny \\ Exam project}
+\date{}
+\maketitle
+
+\begin{abstract}
+\centering
+Part of the exam project
+\end{abstract}
+
+
+The exam project part 1) did involve the task to prove analytically that the original $Ax=\lambda Nx$ can be represented as $By=\lambda y$, where $B=  \sqrt{D}^{-1} V^T A V \sqrt{D}^{-1} $ and $ y=\sqrt{D} V^T x $
+\\
+For this, first transform $N=VDV^T$ and multiply both sides by $\sqrt{D}^{-1} V^T$ from the left-hand side. This gives (after using that $V^TV= identity matrix$ and moving the scalar value $\lambda$)
+$$\sqrt{D}^{-1} V^T A x =\lambda \sqrt{D} V^T x $$
+On the right-hand side, we already do have the outcome we wanted, $\lambda \sqrt{D} V^T x = \lambda y$
+\\
+Taking a closer look at the left-hand side it is $$ \sqrt{D}^{-1} V^T A I x $$ Since I can freely introduce indentity matrices into the equation, that doesn't have any effect on it.
+\\
+use $V^TV=VV^T= identity matrix$ again, and introduce another I:  $$ \sqrt{D}^{-1} V^T A V I V^T x $$
+use $\sqrt{D}^{-1} \sqrt{D} = I$
+$$ \sqrt{D}^{-1} V^T A V \sqrt{D}^{-1} \sqrt{D} V^T x $$
+This is exaclty $By$, so we did prove the equivalence of the two expressions.
+
+
+\end{document}

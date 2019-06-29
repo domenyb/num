@@ -1,0 +1,81 @@
+Original matrix A: 
+ 
+0.840188	0.394383	0.783099	0.79844	
+0.394383	0.911647	0.197551	0.335223	
+0.783099	0.197551	0.76823	0.277775	
+0.79844	0.335223	0.277775	0.55397	
+Original matrix N: 
+ 
+0.477397	0.628871	0.364784	0.513401	
+0.628871	0.95223	0.916195	0.635712	
+0.364784	0.916195	0.717297	0.141603	
+0.513401	0.635712	0.141603	0.606969	
+ 0.477397	 0.95223	 0.717297	 0.606969	
+Sweep 1
+Sweep 2
+Sweep 3
+Sweep 4
+Sweep 5
+Changed matrix D: 
+ 
+0.477397	-1.09655e-17	0	-2.25566e-10	
+0.628871	0.95223	2.34932e-10	-1.21548e-14	
+0.364784	0.916195	0.717297	-1.05284e-17	
+0.513401	0.635712	0.141603	0.606969	
+Changed matrix sqrt(D): 
+ 
+0.690939	0	0	0	
+0	0.975823	0	0	
+0	0	0.846934	0	
+0	0	0	0.779082	
+Changed matrix sqrt(D)^(-1): 
+ 
+1.44731	0	0	0	
+0	1.02478	0	0	
+0	0	1.18073	0	
+0	0	0	1.28356	
+Now introduce the B matrix
+1.21235	0.712179	-0.0898803	0.471331	
+0.712179	0.0897256	-0.0145895	0.580682	
+-0.0898803	-0.0145895	0.558243	-0.452125	
+0.471331	0.580682	-0.452125	3.31054	
+This is the matrix that needs the eigenvalues and vectors solved
+ 1.21235	 0.0897256	 0.558243	 3.31054	
+Sweep 1
+Sweep 2
+Sweep 3
+Sweep 4
+Sweep 5
+The eigenvalues from smallest :
+-0.29113	0.49302	1.33677	3.6322	
+
+ The diagonal matrix containing the above eigenvalues:
+ 
+-0.29113	6.07153e-18	-3.92762e-13	-3.33067e-16	
+-8.67362e-19	0.49302	4.85723e-17	0	
+-3.92845e-13	9.71445e-17	1.33677	-7.3441e-09	
+-5.51642e-16	1.11022e-16	-7.3441e-09	3.6322	
+This is close enough to diagonal
+Now we've found the eigenvalues (and vectors) of matrix B, to get the original eigenvectors: 
+ I should transform them back using the y= sqrt(D)*V^T x equation, where y, D, and V^T are known. 
+First eigenvector:
+0.401601 	-0.906183 	0.0822201 	0.103866 	
+The matrix applied to the first eigenvector:
+-0.116918 	0.263817 	-0.0239368 	-0.0302385 	
+The first eigenvector multiplied by the eigenvalue:
+-0.116918 	0.263817 	-0.0239368 	-0.0302385 	
+ The two are identical, so we really got the good values. Transforming all the y vectors back to x: 
+ first use sqrt(D)^-1, then V to make the two Transforming matrices back to identity matrices
+vector 0: 
+0.746234	0.691666	-0.341874	-0.274329	
+ 
+vector 1: 
+0.718282	-0.174198	0.645799	0.660662	
+ 
+vector 2: 
+0.373633	-1.15706	0.0343397	-0.659535	
+ 
+vector 3: 
+0.255737	-0.284416	-1.0209	0.675454	
+ 
+This concludes the exam excersise. The required analytical proof is in a separate pdf file (out.pdf)
