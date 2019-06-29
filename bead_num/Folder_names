@@ -1,0 +1,12 @@
+The excersises are found in these folders:
+
+EX_interpolation: interpol, interpol_cubic, interpol_quadr 111
+EX_lineq: lineq_gs, GramSchmidt,  1,0
+EX_Eigenvalues: classic_jacobi, Cyclic_Jacobi; 
+EX_Least-Squares fit: least_squares_fitting;
+EX_Root finding: root_finding, root_B;
+EX_Minimization: minim;
+EX_ODEs: ODEs;
+EX_Adaptive integration: adaptive_integr; 
+EX_Monte Carlo integration: MC_integr;
+EX_Artificial neural networks: neunet;

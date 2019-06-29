@@ -1,9 +1,0 @@
-interp: 111
-lineq: 110
-eigen: 1,0.7,1
-fitting: 110
-root: 1, .8, 0
-minim: 1, .2, 0
-ODE: 1,1,0
-integr:1,1,0
-neunet:1 1 0 
