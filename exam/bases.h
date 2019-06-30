@@ -213,6 +213,27 @@ vector* copy_vtr(vector* v){
     }
 
 
+
+matrix * random_simm_matrix_poz(int size){//random symmetric positive definite matrix
+  matrix* object=matrix_alloc(size, size);
+  for (int i=0;i<size;i++){
+    for (int j=i;j<size;j++){
+      double buffer=(double)rand()/(double)RAND_MAX;
+        if (i==j){
+          buffer+=1.0;//this way the definite of the matrix will always be positive
+        }
+      add_matrix_value(object, j, i, buffer);
+      add_matrix_value(object, i, j, buffer);
+    }
+  }
+  return object;
+}
+
+
+
+
+
+
 matrix * random_simm_matrix(int size){
   matrix* object=matrix_alloc(size, size);
   for (int i=0;i<size;i++){

@@ -27,7 +27,7 @@ int Jacobi_cycles (matrix* A, vector* eigenvls, matrix* eigenvtrs){
 int main(int argc, char **argv ) {
   int size=atoi(argv[1]);
   matrix* A=random_simm_matrix(size);//this is a symmetric matrix
-  matrix* D=random_simm_matrix(size);//This is N, but this object will be D later
+  matrix* D=random_simm_matrix_poz(size);//This is N, but this object will be D later - a positive definite symmetrical matrix
   printf("Original matrix A: \n \n" );
   print_matrix(A);
   printf("Original matrix N: \n \n" );
